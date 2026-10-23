@@ -1,48 +1,67 @@
-<svg
-        width="854"
-        height="220"
-        xmlns="http://www.w3.org/2000/svg"
-        xmlns:xlink="http://www.w3.org/1999/xlink"
-        style="z-index:1;position:relative"
-        viewBox="0 0 854 220"
-      >
-        <style>
-      .text {   font-size: 52px;   font-weight: 700;   font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;  } .desc {   font-size: 18px;   font-weight: 500;   font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;  } 
-      .text, .desc {   animation: fadeIn 1.2s ease-in-out forwards;  } @keyframes fadeIn {   from {     opacity: 0;   }   to {     opacity: 1;   }  } 
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="Sai Harshit Dasari — AI and Software Development Engineer">
+  <title>Sai Harshit Dasari — AI and Software Development Engineer</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1120"/>
+      <stop offset="0.55" stop-color="#1e3a8a"/>
+      <stop offset="1" stop-color="#0e7490"/>
+    </linearGradient>
+    <linearGradient id="wave" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#1d4ed8"/>
+      <stop offset="1" stop-color="#06b6d4"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#60a5fa"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity="0.05" stroke-width="1"/>
+    </pattern>
+    <clipPath id="card"><rect width="1200" height="300" rx="24"/></clipPath>
+    <style>
+      .name { font: 800 64px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; letter-spacing: -1px; }
+      .role { font: 500 24px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; letter-spacing: 1px; }
+      .tags { font: 600 16px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; letter-spacing: 2px; }
+      /* Animation only adds motion; every element is fully visible without it. */
+      @media (prefers-reduced-motion: no-preference) {
+        .drift { animation: drift 12s ease-in-out infinite alternate; }
+        .drift2 { animation: drift 16s ease-in-out infinite alternate-reverse; }
+        .pulse { animation: pulse 3s ease-in-out infinite; }
+      }
+      @keyframes drift { from { transform: translateX(0); } to { transform: translateX(-60px); } }
+      @keyframes pulse { 0%, 100% { opacity: 0.9; } 50% { opacity: 0.35; } }
     </style>
-        <defs>
-              <linearGradient id="linear" x1="0%" y1="0%" x2="100%" y2="0%">
-                <stop offset="0%" stop-color="#0f172a"/><stop offset="50%" stop-color="#1d4ed8"/><stop offset="100%" stop-color="#06b6d4"/>
-              </linearGradient>
-            </defs>
-        
-      <g transform="translate(427, 110) scale(1, 1) translate(-427, -110)">
-        <path d="" fill="url(#linear)" opacity="0.4" >
-          <animate
-              attributeName="d"
-              dur="20s"
-              repeatCount="indefinite"
-              keyTimes="0;0.333;0.667;1"
-              calcmod="spline"
-              keySplines="0.2 0 0.2 1;0.2 0 0.2 1;0.2 0 0.2 1"
-              begin="0s"
-              values="M0 0L 0 140Q 213.5 180 427 150T 854 175L 854 0 Z;M0 0L 0 165Q 213.5 180 427 160T 854 150L 854 0 Z;M0 0L 0 185Q 213.5 155 427 185T 854 150L 854 0 Z;M0 0L 0 140Q 213.5 180 427 150T 854 175L 854 0 Z">
-          </animate>
-        </path>
-        <path d="" fill="url(#linear)" opacity="0.4" >
-          <animate
-            attributeName="d"
-            dur="20s"
-            repeatCount="indefinite"
-            keyTimes="0;0.333;0.667;1"
-            calcmod="spline"
-            keySplines="0.2 0 0.2 1;0.2 0 0.2 1;0.2 0 0.2 1"
-            begin="-10s"
-            values="M0 0L 0 155Q 213.5 200 427 170T 854 180L 854 0 Z;M0 0L 0 170Q 213.5 140 427 140T 854 160L 854 0 Z;M0 0L 0 165Q 213.5 145 427 170T 854 185L 854 0 Z;M0 0L 0 155Q 213.5 200 427 170T 854 180L 854 0 Z">
-          </animate>
-        </path>
-      </g>
-         <text text-anchor="middle" dominant-baseline="middle" x="50%" y="38%" class="text" style="fill:#ffffff;" stroke="#none" stroke-width="1" >Sai Harshit Dasari</text>
-        <text text-anchor="middle" dominant-baseline="middle" x="50%" y="58%" class="desc" style="fill:#ffffff;">AI and Software Development Engineer</text>
-      </svg>
-    
+  </defs>
+
+  <g clip-path="url(#card)">
+    <rect width="1200" height="300" fill="url(#bg)"/>
+    <rect width="1200" height="300" fill="url(#grid)"/>
+
+    <!-- Static waves (always drawn) -->
+    <g class="drift">
+      <path d="M0 230 C 200 190, 400 270, 620 230 S 1000 190, 1300 235 V 300 H 0 Z" fill="url(#wave)" opacity="0.35"/>
+    </g>
+    <g class="drift2">
+      <path d="M0 255 C 220 225, 430 290, 650 255 S 1050 225, 1300 260 V 300 H 0 Z" fill="url(#wave)" opacity="0.5"/>
+    </g>
+
+    <!-- Node network motif -->
+    <g stroke="#22d3ee" stroke-opacity="0.35" stroke-width="1.5" fill="none">
+      <path d="M960 70 L1040 110 L1110 60 M1040 110 L1060 180 L1140 150 M1060 180 L990 160 L960 70"/>
+    </g>
+    <g fill="#22d3ee">
+      <circle cx="960" cy="70" r="5" class="pulse"/>
+      <circle cx="1040" cy="110" r="6"/>
+      <circle cx="1110" cy="60" r="4" class="pulse"/>
+      <circle cx="1060" cy="180" r="5"/>
+      <circle cx="1140" cy="150" r="4" class="pulse"/>
+      <circle cx="990" cy="160" r="4"/>
+    </g>
+
+    <!-- Text -->
+    <text x="80" y="128" class="name" fill="#ffffff">Sai Harshit Dasari</text>
+    <rect x="82" y="148" width="120" height="5" rx="2.5" fill="url(#accent)"/>
+    <text x="80" y="192" class="role" fill="#e0f2fe">AI &amp; Software Development Engineer</text>
+    <text x="80" y="232" class="tags" fill="#67e8f9">AGENTIC AI · LLMs · MCP · CLOUD</text>
+  </g>
+</svg>
