@@ -1,7 +1,7 @@
 <!-- Header banner -->
 <div align="center">
 
-<img width="100%" src="./assets/hero-banner.svg" alt="Sai Harshit Dasari banner" />
+<img width="100%" src="./assets/hero-live.svg" alt="Sai Harshit Dasari banner" />
 
 <a href="https://github.com/harshit2005-rgb">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=900&color=22D3EE&center=true&vCenter=true&width=720&lines=Building+Agentic+AI+systems+%F0%9F%A4%96;Designing+with+LLMs+%2B+MCP+%E2%9A%A1;Shipping+AI-powered+enterprise+apps+%F0%9F%9A%80;Final-year+B.Tech+%C2%B7+Data+Engineering+%26+AI+%F0%9F%8E%93" alt="Typing animation" />
