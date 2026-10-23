@@ -1,7 +1,7 @@
 <!-- Header banner -->
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:1d4ed8,100:06b6d4&height=220&section=header&text=Sai%20Harshit%20Dasari&fontSize=52&fontColor=ffffff&fontAlignY=38&animation=fadeIn&desc=AI%20%26%20Software%20Development%20Engineer&descSize=18&descAlignY=58" alt="Sai Harshit Dasari banner" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:1d4ed8,100:06b6d4&height=220&section=header&text=Sai%20Harshit%20Dasari&fontSize=52&fontColor=ffffff&fontAlignY=38&animation=fadeIn&desc=AI%20and%20Software%20Development%20Engineer&descSize=18&descAlignY=58" alt="Sai Harshit Dasari banner" />
 
 <a href="https://github.com/harshit2005-rgb">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=900&color=22D3EE&center=true&vCenter=true&width=720&lines=Building+Agentic+AI+systems+%F0%9F%A4%96;Designing+with+LLMs+%2B+MCP+%E2%9A%A1;Shipping+AI-powered+enterprise+apps+%F0%9F%9A%80;Final-year+B.Tech+%C2%B7+Data+Engineering+%26+AI+%F0%9F%8E%93" alt="Typing animation" />
