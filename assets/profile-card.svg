@@ -268,7 +268,7 @@
       <text x="838" y="877" font-size="14" fill="#e2e8f0">in/saiharshitdasari</text>
       <rect x="802" y="898" width="24" height="24" rx="12" fill="#e2e8f0"/>
       <text x="814" y="915" text-anchor="middle" font-size="12" font-weight="800" fill="#05060f" class="sans">gh</text>
-      <text x="838" y="915" font-size="14" fill="#e2e8f0">harshit2005-rgb</text>
+      <text x="838" y="915" font-size="14" fill="#e2e8f0">harshitdasari2005</text>
     </g>
     <text x="1114" y="877" text-anchor="end" class="mono small" fill="#6ee7b7">● AVAILABLE
       <animate attributeName="opacity" values="1;0.4;1" dur="2.4s" repeatCount="indefinite"/></text>
