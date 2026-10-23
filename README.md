@@ -1,7 +1,7 @@
 <!-- Header banner -->
 <div align="center">
 
-<img width="100%" src="./assets/header-banner.svg" alt="Sai Harshit Dasari banner" />
+<img width="100%" src="./assets/hero.svg" alt="Sai Harshit Dasari banner" />
 
 <a href="https://github.com/harshit2005-rgb">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=900&color=22D3EE&center=true&vCenter=true&width=720&lines=Building+Agentic+AI+systems+%F0%9F%A4%96;Designing+with+LLMs+%2B+MCP+%E2%9A%A1;Shipping+AI-powered+enterprise+apps+%F0%9F%9A%80;Final-year+B.Tech+%C2%B7+Data+Engineering+%26+AI+%F0%9F%8E%93" alt="Typing animation" />
@@ -144,6 +144,6 @@ status: building something new 🔨
 
 <a href="https://www.linkedin.com/in/saiharshitdasari"><img src="https://img.shields.io/badge/Reach_me_on-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
 
-<img width="100%" src="./assets/footer-wave.svg" alt="footer" />
+<img width="100%" src="./assets/footer-aurora.svg" alt="footer" />
 
 </div>
